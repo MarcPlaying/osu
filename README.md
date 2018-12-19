@@ -2,6 +2,10 @@
 
 Rhythm is just a *click* away. The future of [osu!](https://osu.ppy.sh) and the beginning of an open era! Commonly known by the codename "osu!lazer". Pew pew.
 
+# Fork
+
+This fork is a little bit playing with the new osu!lazer Client! I want to add Discord Rich Presence and some other shit, all private use
+
 # Status
 
 This project is still heavily under development, but is in a state where users are encouraged to try it out and keep it installed alongside the stable osu! client. It will continue to evolve over the coming months and hopefully bring some new unique features to the table.
@@ -19,7 +23,7 @@ If you are not interested in developing the game, please head over to the [relea
 
 Clone the repository including submodules
 
-`git clone --recurse-submodules https://github.com/ppy/osu`
+`git clone --recurse-submodules https://github.com/MarcPlaying/osu`
 
 Build and run
 
@@ -30,16 +34,6 @@ Build and run
 Note: If you run from command line under linux, you will need to prefix the output folder to your `LD_LIBRARY_PATH`. See `.vscode/launch.json` for an example
 
 If you run into issues building you may need to restore nuget packages (commonly via `dotnet restore`). Visual Studio Code users must run `Restore` task from debug tab before attempt to build.
-
-# Contributing
-
-We welcome all contributions, but keep in mind that we already have a lot of the UI designed. If you wish to work on something with the intention on having it included in the official distribution, please open an issue for discussion and we will give you what you need from a design perspective to proceed. If you want to make *changes* to the design, we recommend you open an issue with your intentions before spending too much time, to ensure no effort is wasted.
-
-Please make sure you are familiar with the [development and testing](https://github.com/ppy/osu-framework/wiki/Development-and-Testing) procedure we have set up. New component development, and where possible, bug fixing and debugging existing components **should always be done under VisualTests**.
-
-Contributions can be made via pull requests to this repository. We hope to credit and reward larger contributions via a [bounty system](https://www.bountysource.com/teams/ppy). If you're unsure of what you can help with, check out the [list of open issues](https://github.com/ppy/osu/issues).
-
-Note that while we already have certain standards in place, nothing is set in stone. If you have an issue with the way code is structured; with any libraries we are using; with any processes involved with contributing, *please* bring it up. I welcome all feedback so we can make contributing to this project as pain-free as possible.
 
 # Licence
 
